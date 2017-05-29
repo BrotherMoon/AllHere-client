@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.ant-layout {
+    height: 100%;
+    background: #fff;
+}
+
+.ant-layout-header {
+    position: relative;
+    color: #fff;;
+    background: #00B5EC;
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.ant-layout-header button i, .ant-layout-header button span {
+    color: #fff;
+}
+
+.ant-layout-header > span {
+    text-shadow: 0 0 5px rgba(0, 55, 255, 0.51);
+}
+
+.ant-layout-header .ant-btn {
+    border: none;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ant-layout-sider {
+    background: #fff;
+    border: none;
+    border-right: 1px solid #E9E9E9;
+}
+
+.ant-menu-item {
+    color: #333435;
+}
+
+.ant-layout-content {
+
+}
+
+.ant-table-wrapper {
+    overflow-y: auto;
+}
+
+.ant-table-body .ant-table-thead > tr > th {
+    background: #fff;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.ant-table-body tr > td {
+    color: #333435;
+}
+
+.ant-layout-sider-trigger {
+
+}
+
+.ant-table-wrapper {
+    height: 100%;
+}
+
+.ant-table-title {
+    font-size: large;
+}
+
+.ant-layout-footer {
+    position: relative;
+    border-top: 1px solid #E9E9E9;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.ant-layout-footer a {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+.ant-layout-footer button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 2px double;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: 0 0 6px #1befec;
+}
